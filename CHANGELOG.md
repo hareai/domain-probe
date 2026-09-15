@@ -9,3 +9,4 @@ Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), versio
 ### Added
 
 - Domain kernel (`internal/domain`): TLD adapters and WHOIS/RDAP classifiers for the v1 suffix list.
+- stdio MCP server (`cmd/domain-probe`) with `lookup` and `lookup_batch`.
